@@ -1,15 +1,15 @@
 # dotfiles
 
-####bash profile
+#### bash profile
 
-####yarn
+#### yarn
 ```
 brew install yarn
 ```
-####npm and node 
+#### npm and node 
 install node and npm
 
-####mingit
+#### mingit
 https://github.com/evansendra/mingit
 ```
 npm install -g mingit && source ~/.mingit.sh
@@ -19,16 +19,17 @@ npm install -g mingit && source ~/.mingit.sh
 yarn global add mingit && source ~/.mingit.sh
 ```
 
-####Hyper
+#### Hyper
 https://hyper.is/
 
 settings?
 
-####VS Code
+#### VS Code
 
 Download plugins
 
-Settings?
+Add settings.json to:
+`/Users/brian.ridge/Library/Application Support/Code/User/settings.json`
 
 add "code" command to PATH
 Shift+command+p -> type path -> click on add code to PATH
@@ -39,11 +40,11 @@ https://github.com/VSCodeVim/Vim
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 ```
 
-####System Preferences
+#### System Preferences
 Keyboard -> Modifier Keys : Caps Lock to Escape
 Keyboard -> Shortcuts -> Screenshots Command+j
 
-####Chrome
+#### Chrome
 sign in or download extensions
 
 Vimium
@@ -53,5 +54,5 @@ Redux
 Pocket
 JSON viewer
 
-####Postman
+#### Postman
 
