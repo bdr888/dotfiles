@@ -48,6 +48,9 @@ Keyboard -> Shortcuts -> Screenshots Command+j
 sign in or download extensions
 
 Vimium
+  tabbing:
+  map <m-K> nextTab
+  map <m-J> previousTab
 OctoTree
 React
 Redux
