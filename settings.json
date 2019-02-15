@@ -1,40 +1,133 @@
 {
-  "eslint.autoFixOnSave": true,
-  "editor.tabSize": 2,
-  "editor.selectionHighlight": false,
-  "editor.renderIndentGuides": false,
-  "editor.matchBrackets": true,
-  "editor.scrollBeyondLastLine": false,
-  "editor.minimap.enabled": false,
-  "editor.quickSuggestions": {
-      "other": true   ,
-      "comments": false,
-      "strings": false
+    "editor.tabSize": 2,
+    "editor.selectionHighlight": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": true,
+    "editor.renderIndentGuides": false,
+    "editor.matchBrackets": false,
+    "editor.scrollBeyondLastLine": false,
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
     },
-  "editor.parameterHints": false,
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.editor.enablePreview": false,
-  "workbench.startupEditor": "none",
-  "workbench.editor.openPositioning": "last",
-  "window.title": "${rootName}${separator}${activeEditorMedium}",
-  "vim.disableAnnoyingNeovimMessage": true,
-  "vim.useSystemClipboard": true,
-  "typescript.check.npmIsInstalled": false,
-  "files.exclude": {
-      "**/.gitignore": true
-  },
-  "search.exclude": {
-      "**/.gitignore": true,
-      "**/lib": true
-  },
-  "vim.statusBarColorControl": true,
-  "vim.statusBarColors" : {
-      "normal": "#005f5f",
-      "insert": "#5f0000",
-      "visual": "#5f00af",
-      "visualline": "#005f87",
-      "visualblock": "#86592d",
-      "replace": "#000000"
-  },
-"vsicons.dontShowNewVersionMessage": true,
+    "editor.parameterHints": false,
+    "prettier.printWidth": 80,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "files.exclude": {
+        "**/lib": false,
+    },
+    "search.exclude": {
+        "**/.gitignore": true,
+        "**/lib": false,
+        "**/.spec": true,
+        "**/node_modules": true,
+    },
+    "typescript.check.npmIsInstalled": false,
+    "vim.cursorStylePerMode": {
+        "normal": "block-outline",
+        "visual": "visualblock",
+    },
+    "vim.useSystemClipboard": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors": {
+        "normal": [
+            "#8FBCBB",
+            "#434C5E"
+        ],
+        "insert": "#BF616A",
+        "visual": "#B48EAD",
+        "visualline": "#B48EAD",
+        "visualblock": "#A3BE8C",
+        "replace": "#D08770"
+    },
+    "window.title": "${rootName}${separator}${activeEditorMedium}",
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.openPositioning": "last",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#B48EAD",
+        "statusBar.noFolderBackground": "#B48EAD",
+        "statusBar.debuggingBackground": "#B48EAD"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "sync.gist": "72498151f57d2fe66a194c9adad8a0b3",
+    "sync.lastUpload": "2018-08-15T21:39:23.923Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    // "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "typescript.showUnused": false,
+    "material-icon-theme.showUpdateMessage": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.historyExplorer.location": "scm",
+    "gitlens.resultsExplorer.location": "scm",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.statusBar.feedback.visible": false,
+    "debug.showInStatusBar": "never",
+    "editor.fontSize": 13,
+    "zenMode.fullScreen": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.fontFamily": "Operator Mono, Fira Code",
+    "editor.fontLigatures": true,
+    "vscode_custom_css.imports": [
+        "file:///Users/brian.ridge/.vscode/style.css"
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    //following will be in italic (=FlottFlott)
+                    "comment",
+                    "entity.name.type.class", //class names
+                    "keyword", //import, export, return…
+                    "constant", //String, Number, Boolean…, this, super
+                    "storage.modifier", //static keyword
+                    "storage.type.class.js", //class keyword
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    //following will be excluded from italics (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "breadcrumbs.enabled": true,
 }
