@@ -38,7 +38,7 @@ alias slingpauseprod="PAUSE=before project client acceptance prod"
 alias slingtest="project client test run"
 
 #PS1
-export PS1="\[\033[38;5;0m\]\[\033[48;5;15m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] [\[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]\[\033[38;5;197m\]\$(parse_git_branch)\[$(tput sgr0)\]\n: \[$(tput sgr0)\]"
+export PS1="\[\033[38;5;0m\]\[\033[48;5;15m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \t\[$(tput sgr0)\] [\[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]\[\033[38;5;197m\]\$(parse_git_branch)\[$(tput sgr0)\]\n\$ \[$(tput sgr0)\]"
 
 #PATH
 export PATH=$PATH:bin
