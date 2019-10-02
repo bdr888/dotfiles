@@ -134,7 +134,10 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: [
+    'hyper-spotify',
+    'hyper-alt-click',
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -144,6 +147,6 @@ module.exports = {
   keymaps: {
     'tab:next': 'cmd+shift+k',
     'tab:prev': 'cmd+shift+j',
-    'history-search-backward': 'cmd+l',
+    'history-search-backward': 'cmd+l'
   },
 };
