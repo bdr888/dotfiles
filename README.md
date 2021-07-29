@@ -1,38 +1,25 @@
 # dotfiles
 
-#### bash profile
+#### MacOS System Preferences
+Keyboard -> Modifier Keys : Caps Lock to Escape
+Keyboard -> Shortcuts -> Screenshots Command+j
 
-#### yarn
-```
-brew install yarn
-```
-#### npm and node 
-install node and npm
+#### rectangle
+window manager
+https://rectangleapp.com/
 
-#### mingit
-https://github.com/evansendra/mingit
-```
-npm install -g mingit && source ~/.mingit.sh
-```
--or-
-```
-yarn global add mingit && source ~/.mingit.sh
-```
+#### flycut
+clipboard manager
+https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12
 
-#### Hyper
+#### hyper terminal
 https://hyper.is/
 
-settings?
-
-#### VS Code
-
-Download plugins
-
-Add settings.json to:
-`/Users/brian.ridge/Library/Application Support/Code/User/settings.json`
+#### vscode
+https://code.visualstudio.com/download
 
 add "code" command to PATH
-Shift+command+p -> type path -> click on add code to PATH
+Shift + command + p -> type 'path' -> click on add code to PATH
 
 to enable key repeat
 https://github.com/VSCodeVim/Vim
@@ -40,12 +27,39 @@ https://github.com/VSCodeVim/Vim
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 ```
 
-#### System Preferences
-Keyboard -> Modifier Keys : Caps Lock to Escape
-Keyboard -> Shortcuts -> Screenshots Command+j
+#### brew
+install brew with the curl command
+www.brew.sh
+
+#### node
+install node
+node.js.org/en/download
+
+#### install nvm
+https://github.com/nvm-sh/nvm
+had to do the manual in the past: https://github.com/nvm-sh/nvm#manual-install
+
+#### oh-my-zsh
+https://ohmyz.sh/#install
+
+#### powerline fonts
+for spaceship and zsh theme
+https://github.com/powerline/fonts#quick-installation
+
+#### spaceship prompt
+brew install:
+https://github.com/spaceship-prompt/spaceship-prompt
 
 #### Chrome
-sign in or download extensions
+Extensions:
+Vimium: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en
+Lastpass: https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US
+Videospeed controller
+Octotree
+Pocket
+HTTPS everywhere
+AdBlock
+JSON formatter
 
 Vimium
   tabbing:
@@ -56,6 +70,3 @@ React
 Redux
 Pocket
 JSON viewer
-
-#### Postman
-
