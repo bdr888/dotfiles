@@ -52,24 +52,21 @@ https://github.com/spaceship-prompt/spaceship-prompt
 
 #### Chrome
 Extensions:
-Vimium: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en
-Lastpass: https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US
-Videospeed controller
-Octotree
-Pocket
-HTTPS everywhere
-AdBlock
-JSON formatter
+- Vimium: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en
+- Lastpass: https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US
+- Videospeed controller
+- Octotree
+- Pocket
+- HTTPS everywhere
+- AdBlock
+- JSON formatter
 
-Vimium
+- Vimium
   tabbing:
   map <m-K> nextTab
   map <m-J> previousTab
-OctoTree
-React
-Redux
-Pocket
-JSON viewer
+
+- JSON viewer
 
 #### SSH Key
   https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
